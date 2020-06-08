@@ -1,0 +1,779 @@
+/* group selectors */
+
+body {
+    background-color: #cccccc;
+    font-family: 'Roboto condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+/* naira sign &#8358; */
+
+h1,
+h2,
+h3,
+.creep {
+    font-family: 'creepster', cursive;
+}
+
+p {
+    line-height: normal;
+}
+
+p,
+span,
+a,
+.pang {
+    font-family: 'roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    cursor: default;
+}
+
+sup {
+    font-size: 100%;
+}
+
+/* bullet list */
+
+ul {
+    line-height: normal;
+}
+
+
+
+.bold-it {
+    font-weight: bold;
+}
+
+/* do not touch ths section of code */
+
+/* customised scrollbar */
+/* 
+::-webkit-scrollbar {
+    width: 15px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+    background-color: #cccccc;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+    background: #a6a6a6;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+} */
+
+
+/* id selectors */
+
+button:focus {
+    outline: none;
+}
+
+/* class selectors */
+
+/* header contents */
+
+.main-header {
+    background-color: #808080;
+    width: 100%;
+}
+
+.main-header .gstore-icon {
+    width: 80px;
+}
+
+.main-header .gstore-icon:hover {
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.icon-title {
+    display: inline-block;
+    font-size: 250%;
+    margin: 10px 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.main-header .menu-button {
+    position: sticky;
+}
+
+.menu-button .gamepad-icon {
+    margin: auto;
+    width: 30px;
+}
+
+/* sidebar contents */
+.main-sidebar {
+    background-color: #cccccc;
+    display: none;
+    right: 0;
+    transition: ease 0.5s;
+    z-index: 4;
+
+}
+
+.close-button {
+    height: max-content;
+}
+
+/* body contents */
+
+.section-divider {
+    width: 100%;
+}
+
+.section {
+    background-image:
+        radial-gradient(blue, #cccccc);
+    height: 100%;
+    padding-bottom: 10%;
+    width: 100vw;
+}
+
+.section-div {
+    padding: 12px 24px;
+    width: 50%;
+}
+
+.section-title {
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: bold;
+}
+
+.section-note {
+    font-family: 'Roboto condensed', sans-serif;
+    font-size: 170%;
+}
+
+.section-image {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.section-button-div {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.section-button-link {
+    text-decoration: none;
+}
+
+.section-button {
+    font-family: 'roboto condensed', sans-serif;
+    padding: 3px 3px;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.section-button:hover {
+    background-color: transparent !important;
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.section-button:focus {
+    outline: none;
+}
+
+.section-button:active {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.section-button-image {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    width: 17%;
+}
+
+.gclub-section {
+    background-image:
+        radial-gradient(green, #cccccc);
+}
+
+.updates-section {
+    background-image:
+        radial-gradient(orange, #cccccc);
+}
+
+.trade-section {
+    background-image: radial-gradient(lightblue, #cccccc);
+}
+
+.customer-service-section {
+    background-image:
+        radial-gradient(darkred, #cccccc);
+}
+
+/* gstore */
+
+.gstore-nav {
+    background-color: #808080;
+}
+
+.nav-filter {
+    background-color: lightgrey;
+    display: inline-block;
+    font-family: 'pangolin', cursive;
+    font-size: 18px;
+    margin: auto;
+    padding: 5px 4px;
+    width: fit-content;
+}
+
+.filter-icon {
+    margin-right: 2%;
+    vertical-align: middle;
+    width: 8%;
+}
+
+/* information panel */
+
+.panel {
+    margin: 16px auto;
+    padding: 0;
+    width: 80%;
+}
+
+.panel-text {
+    font-size: 100%;
+    margin: 3px 20px 3px 5px;
+    text-align: left;
+}
+
+.panel-link-text {
+    font-weight: bold;
+}
+
+.panel-link-icon {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: top;
+    width: 25px;
+}
+
+.remove-panel {
+    background-color: transparent !important;
+    font-weight: bold;
+    height: 100%;
+    padding: 5px;
+}
+
+/* nav filter */
+
+.nav-filter .filter-input {
+    background-color: lightgrey;
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 88%;
+}
+
+.close-filter {
+    font-weight: bold;
+    height: 90%;
+    padding: 1px 8px;
+    width: 10%;
+}
+
+/* deals section */
+.discount-div {
+    width: 100%;
+}
+
+.discount-header {
+    background: -moz-linear-gradient(to right, #fdf5E6, #ffffcc, #ffeb3b, #ff9800);
+    background: -ms-linear-gradient(to right, #fdf5E6, #ffffcc, #ffeb3b, #ff9800);
+    background: -o-linear-gradient(to right, #fdf5E6, #ffffcc, #ffeb3b, #ff9800);
+    background: -webkit-linear-gradient(right, #fdf5E6, #ffffcc, #ffeb3b, #ff9800);
+    background: linear-gradient(to right, #fdf5E6, #ffffcc, #ffeb3b, #ff9800);
+    margin: 0;
+}
+
+.discount-item {
+    padding: 16px 8px;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    min-width: fit-content;
+    max-width: fit-content;
+}
+
+.discount-item:hover {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.discount-item-image {
+    margin: 5px 0;
+    width: 70px;
+}
+
+.discount-item-description {
+    font-size: 100;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.discount-item-price {
+    font-size: 100%;
+    margin: 5px 0;
+    white-space: nowrap;
+}
+
+.discount-unit {
+    font-size: 70%;
+}
+
+/* discount - page */
+
+.discount-item-onpage {
+    margin: auto;
+}
+
+.discount-2in1-page-header {
+    background-color: #fdf5E6;
+}
+
+.discount-3in1-page-header {
+    background-color: #ffffcc;
+}
+
+.discount-4in1-page-header {
+    background-color: #ffeb3b;
+}
+
+.discount-5in1-page-header {
+    background-color: #ff9800;
+}
+
+/* naira sign &#8358; */
+
+/* items div */
+
+.itemsection {
+    width: 100%;
+}
+
+.itemsectionheader {
+    background-color: #808080;
+    margin: 0;
+}
+
+
+.itemdiv {
+    background-color: #808080;
+    max-width: fit-content !important;
+    padding: 10px 5px;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.itemdiv:hover {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.itemimage {
+    margin: 5px 0;
+    width: 50px;
+}
+
+.itemdescription {
+    font-size: 100%;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.itemprice {
+    font-size: 90%;
+    margin: 5px 0;
+    white-space: nowrap;
+}
+
+.saveprice {
+    font-size: 80%;
+}
+
+/* item page general */
+
+.item-page-icon {
+    margin: 8px auto;
+    width: 80px;
+}
+
+
+/* item table */
+
+.table-div {
+    border: 2px solid black;
+    font-size: 110%;
+    margin: auto;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 6px 8px;
+}
+
+th {
+    background-color: #808080;
+}
+
+tr:hover {
+    background-color: #a6a6a6;
+}
+
+/*  */
+
+.buy-button-div {
+    font-weight: bold;
+}
+
+.buy-button-link {
+    text-decoration: none;
+}
+
+.buy-button {
+    font-family: 'roboto condensed', sans-serif;
+    padding: 3px 3px;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.buy-button:hover {
+    background-color: transparent;
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.buy-button:focus {
+    outline: none;
+}
+
+.buy-button:active {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.buy-button-image {
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    width: 30%;
+}
+
+/* buy prompt */
+
+.buy-prompt-base {
+    margin: auto;
+}
+
+.buy-prompt-div {
+    background-color: #cccccc;
+    border: 2px solid black;
+    width: 100% !important;
+}
+
+.buy-prompt-header {
+    background-color: #808080;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    padding: 6px 8px;
+    width: 100%;
+}
+
+.buy-prompt-body {
+    background-color: #cccccc;
+    padding: 3px 6px;
+}
+
+.buy-prompt-text {
+    margin: 0;
+}
+
+.buy-prompt-footer {
+    background-color: #808080;
+    width: 100%;
+}
+
+.buy-prompt-cancel {
+    border-right: 1px solid black;
+    border-left: none;
+    border-top: 2px solid black;
+    border-bottom: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 6px 8px;
+    width: 50%;
+}
+
+.buy-prompt-proceed {
+    border-left: 1px solid black;
+    border-right: none;
+    border-top: 2px solid black;
+    border-bottom: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 6px 8px;
+    width: 50%;
+}
+
+#agreed {
+    display: none;
+    margin: 0;
+}
+
+.termsandconditions-text:hover {
+    text-decoration: underline;
+}
+
+/* naira sign &#8358; */
+
+/* updates.html */
+
+.headlines-title {
+    font-family: 'roboto condensed', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    width: 95%;
+}
+
+.headlines-div {
+    margin: auto !important;
+    padding: 6px 8px;
+    width: 95%;
+    white-space: nowrap;
+    height: 180px;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+.article-div {
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 100%;
+    margin: 0 5px;
+    padding: 2px 5px;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.2s;
+    width: 150px;
+}
+
+.article-div:hover {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article-title {
+    line-height: 1;
+    margin: 3px 0;
+    white-space: normal;
+}
+
+/* gototop */
+
+.gototop-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    display: none;
+    height: 50px;
+    outline: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    z-index: 3;
+}
+
+.gototop-image {
+    margin: auto;
+    -moz-transition: 10s;
+    -o-transition: 10s;
+    -webkit-transition: 10s;
+    transition: 10s;
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    vertical-align: -webkit-baseline-middle;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* footer */
+
+.main-footer {
+    background-color: #808080;
+    width: 100%;
+}
+
+.socials-div {
+    width: 50%;
+}
+
+.socials-text {
+    margin: 1% auto;
+}
+
+.socials-image-div {
+    padding: 1%;
+}
+
+.socials-image {
+    border-top-left-radius: 26%;
+    border-top-right-radius: 26%;
+    border-bottom-left-radius: 26%;
+    border-bottom-right-radius: 26%;
+    margin: 0 1%;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    width: 10%;
+}
+
+
+.socials-image:hover {
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.facebooksocials:hover {
+    background-color: #3b5998;
+}
+
+.instagramsocials:hover {
+    background: -moz-linear-gradient(to bottom left, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+    background: -ms-linear-gradient(to bottom left, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+    background: -o-linear-gradient(to bottom left, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+    background: -webkit-linear-gradient(bottom left, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+    background: linear-gradient(to bottom left, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
+}
+
+.twittersocials:hover {
+    background-color: #00acee;
+}
+
+.youtubesocials:hover {
+    background-color: #ff0000;
+}
+
+.whatsappsocials:hover {
+    background-color: #25d366;
+}
+
+/* copyright div */
+
+.copyright-div {
+    width: 50%;
+}
+
+.copyright-text {
+    font-weight: bold;
+    margin: 1% auto;
+}
+
+.copyright-div .gstore-icon {
+    width: 80px;
+}
+
+.copyright-div .gstore-icon:hover {
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+/* naira sign &#8358; */
+
+/* end */

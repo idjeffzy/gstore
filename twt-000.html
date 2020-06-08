@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gstore</title>
+    <meta name="author" content="Gstore">
+    <meta name="description" content="Gstore is an online store for G-boys.">
+    <meta name="keyword"
+        content="us number, international phone number, free accounts, instagram, facebook, we-chat, account for sale, buy facebook accounts,">
+    <meta name="theme-color" content="gray">
+    <link rel="icon" type="image" href="gstoreround.png">
+    <link rel="stylesheet" href="w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Creepster&family=Pangolin&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="gstore.css">
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="w3-sidebar w3-card-4 w3-padding-16 w3-bar-block w3-animate-right  main-sidebar" id="mySidebar">
+        <button class="w3-hover-grey w3-bar-item w3-button w3-right close-button" onclick="w3_close()">
+            <img class="gamepad-icon" src="gamepad.png" alt="menu">
+        </button>
+        <a href="index.html" class="w3-hover-grey  w3-bar-item w3-button w3-large" onclick="w3_close()">Home</a>
+        <a href="gstore.html" class="w3-hover-grey  w3-bar-item w3-button w3-large" onclick="w3_close()">Gstore</a>
+        <a href="gclub.html" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Gclub</a>
+        <a href="gblog.html" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Gblog</a>
+        <a href="#trade" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Trade</a>
+        <a href="#customerservice" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Customer
+            Service</a>
+        <a href="#about" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">About Gstore</a>
+    </div>
+
+    <!-- overlay for sidebar to cover page -->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+    </div>
+    <!-- begining of page -->
+    <!-- header -->
+    <header class="w3-animate-top w3-container w3-display-container w3-padding w3-card-4 w3-row main-header">
+        <img class="gstore-icon" src="gstoreicon.png" alt="Gstore logo">
+        <h1 class="w3-wide icon-title">GSTORE</h1>
+        <button onclick="w3_open()"
+            class="w3-button w3-display-right w3-color w3-right w3-border w3-border-black menu-button">
+            <img class="gamepad-icon" src="gamepad.png" alt="menu">
+        </button>
+    </header>
+    <!-- code starts here -->
+
+
+    <!-- warning panel -->
+    <div class="w3-panel w3-animate-opacity w3-display-container w3-leftbar w3-border-black w3-amber panel">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-hover-black w3-display-topright w3-large remove-panel">&#10006;</span>
+        <p class="w3-large panel-text">
+            Please carefully check to verify the details of this item before you proceed.
+        </p>
+    </div>
+
+    <div class="w3-container w3-center w3-padding-large">
+        <img class="w3-image item-page-icon" src="twitter.png" alt="twitter">
+
+        <table class="table-div">
+            <thead>
+                <th colspan="2">Account Information</th>
+                <tr>
+                    <td>Account Type</td>
+                    <td>Twitter</td>
+                </tr>
+                <tr>
+                    <td>Account Name</td>
+                    <td>****** *****</td>
+                </tr>
+                <tr>
+                    <td>Followers</td>
+                    <td>00 Active Followers</td>
+                </tr>
+                <tr>
+                    <td>Account Gender</td>
+                    <td>Male/Female</td>
+                </tr>
+                <tr>
+                    <td>Date of Creation</td>
+                    <td>00-00-0000</td>
+                </tr>
+            </thead>
+            <tbody>
+                <th colspan="2">Account Security</th>
+                <tr>
+                    <td>Strength</td>
+                    <td> 0/10</td>
+                </tr>
+                <tr>
+                    <td>VPN</td>
+                    <td>Activated</td>
+                </tr>
+                <tr>
+                    <td>Proxy Server</td>
+                    <td>Activated</td>
+                </tr>
+                <tr>
+                    <td>Verification</td>
+                    <td>N/A</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="2">Pricing</th>
+                <tr>
+                    <td>One-Time Customers</td>
+                    <td>&#8358;0,000</td>
+                </tr>
+                <tr>
+                    <td>Premium Customers</td>
+                    <td>&#8358;0,000<sup>-2%</sup></td>
+                </tr>
+                <tr>
+                    <td>Gclub Members</td>
+                    <td>&#8358;0,000<sup>-5%</sup></td>
+                </tr>
+                <th colspan="2">
+                    &nbsp;
+                </th>
+            </tfoot>
+        </table>
+
+        <div class="w3-container w3-section w3-center buy-button-div">
+            <a class="buy-button-link" href="javascript:void(0)">
+                <button class="w3-button w3-card-4 w3-border w3-border-black w3-hover-gray w3-xlarge buy-button"
+                    onclick="document.getElementById('buyprompt').style.display='block'">
+                    BUY
+                    <img class="w3-image buy-button-image" src="gamepad.png" alt="">
+                </button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- buy popup prompt -->
+
+    <div id="buyprompt" class="w3-modal">
+        <div class="w3-modal-content buy-prompt-base">
+            <div class="buy-prompt-div">
+                <header class="w3-center w3-text-white w3-large buy-prompt-header">
+                    Checkout
+                </header>
+                <div class="buy-prompt-body">
+                    <p class="buy-prompt-text">Before you can proceed from this page you must agree to all Gstore's
+                        <a class="w3-large termsandconditions-text" href="about.html">terms and conditions</a>.
+                        <br>
+                        We are hereby reinstating that although the products may be provided by us, <wbr> we owe no
+                        concern or responsibility as to how the customer's uses it.
+                        <br>
+                        Thereby on this note Gstore or its partners will not be held responsible or accountable for any
+                        damages or consequences that the use of this product may bring.
+                    </p>
+                    <form class="" id="buy-prompt-form" action="">
+                        <input class="w3-check" id="agreement" type="checkbox" onclick="checkagreement()" required>
+                        <label for="agreement">I Agree to all Gstore's <a class="w3-large termsandconditions-text"
+                                href="about.html">terms and conditions.</a></label>
+                        <input type="submit" id="pay" style="display: none;">
+                        <p id="agreed">Press Proceed to complete your purchase</p>
+                </div>
+                <footer class="w3-row w3-center buy-prompt-footer">
+                    <button class="w3-half w3-large w3-red buy-prompt-cancel"
+                        onclick="document.getElementById('buyprompt').style.display='none'">
+                        Cancel
+                    </button>
+                    <button type="submit" class="w3-half w3-large w3-green buy-prompt-proceed">
+                        Proceed
+                    </button>
+                    </form>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+
+    <!-- code ends here -->
+    <div class="w3-container section-divider">
+        &nbsp;
+    </div>
+    <!-- footer section -->
+    <footer class="w3-row main-footer" id="about">
+        <div class="w3-col m6 s12 w3-mobile w3-padding w3-center socials-div">
+            <p class="w3-large socials-text">
+                You can get in touch with Gstore via the following platforms
+            </p>
+            <div class="socials-image-div">
+                <a href="#about"><img class="socials-image facebooksocials" src="facebooksocials.png" alt="facebook"
+                        title="Facebook"></a>
+                <a href="#about"><img class="socials-image instagramsocials" src="instagramsocials.png" alt="instagram"
+                        title="Instagram"></a>
+                <a href="#about"><img class="socials-image twittersocials" src="twittersocials.png" alt="twitter"
+                        title="Twitter"></a>
+                <a href="#about"><img class="socials-image youtubesocials" src="youtubesocials.png" alt="youtube"
+                        title="Youtube"></a>
+                <a href="#about"><img class="socials-image whatsappsocials" src="whatsappsocials.png" alt="whatsapp"
+                        title="Whatsapp"></a>
+            </div>
+        </div>
+        <div class="w3-col m6 s12 w3-mobile w3-padding w3-center copyright-div">
+            <p class="w3-large  copyright-text">
+                &#169;&nbsp;2020&nbsp;Gstore&nbsp;&#8482;
+            </p>
+            <img class="w3-image gstore-icon" src="gstoreicon.png" alt="Gstore Logo">
+        </div>
+    </footer>
+</body>
+
+<script src="gstore.js"></script>
+
+</html>

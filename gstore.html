@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gstore</title>
+    <meta name="author" content="Gstore">
+    <meta name="description" content="Gstore is an online store for G-boys.">
+    <meta name="keyword"
+        content="us number, international phone number, free accounts, instagram, facebook, we-chat, account for sale, buy facebook accounts,">
+    <meta name="theme-color" content="gray">
+    <link rel="icon" type="image" href="gstoreround.png">
+    <link rel="stylesheet" href="w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Creepster&family=Pangolin&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="gstore.css">
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="w3-sidebar w3-card-4 w3-padding-16 w3-bar-block w3-animate-right  main-sidebar" id="mySidebar">
+        <button class="w3-hover-grey w3-bar-item w3-button w3-right close-button" onclick="w3_close()">
+            <img class="gamepad-icon" src="gamepad.png" alt="menu">
+        </button>
+        <a href="index.html" class="w3-hover-grey  w3-bar-item w3-button w3-large" onclick="w3_close()">Home</a>
+        <a href="#" class="w3-hover-grey  w3-bar-item w3-button w3-large" onclick="w3_close()">Gstore</a>
+        <a href="gclub.html" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Gclub</a>
+        <a href="gblog.html" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Gblog</a>
+        <a href="#trade" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Trade</a>
+        <a href="#customerservice" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">Customer
+            Service</a>
+        <a href="#about" class="w3-hover-grey w3-bar-item w3-button w3-large" onclick="w3_close()">About Gstore</a>
+    </div>
+
+    <!-- overlay for sidebar to cover page -->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay">
+    </div>
+    <!-- begining of page -->
+    <!-- header -->
+    <header class="w3-animate-top w3-container w3-display-container w3-padding w3-card-4 w3-row main-header">
+        <img class="gstore-icon" src="gstoreicon.png" alt="Gstore logo">
+        <h1 class="w3-wide icon-title">GSTORE</h1>
+        <button onclick="w3_open()"
+            class="w3-button w3-display-right w3-color w3-right w3-border w3-border-black menu-button">
+            <img class="gamepad-icon" src="gamepad.png" alt="menu">
+        </button>
+    </header>
+    <!-- code starts here -->
+    <div class="w3-container w3-center w3-padding gstore-nav">
+        <!-- filter -->
+        <div class="w3-bar-item w3-round w3-center w3-card-2 nav-filter" id="filter">
+            <img class="w3-left filter-icon" src="filter.png" alt="filter">
+            <input class="filter-input" type="text" placeholder="Search..." onkeyup="myFunction()">
+        </div>
+    </div>
+    <!-- infomation panel -->
+    <div class="w3-panel w3-animate-opacity w3-display-container w3-leftbar w3-border-black w3-blue panel">
+        <span onclick="this.parentElement.style.display='none'"
+            class="w3-button w3-hover-black w3-display-topright w3-large remove-panel">&#10006;</span>
+        <p class="w3-large panel-text">
+            To mark our grand opening, we will be giving out 50% discount on all items above &#8358;5,000 and you
+            can also
+            stand the chance to get a free coupon when you buy at least 5 items in a week (T&C applies). </p>
+    </div>
+
+    <!-- special deals section -->
+    <div class="w3-row w3-padding">
+        <div class="w3-col l12 m12 s12 w3-mobile">
+            <p class="w3-xlarge w3-card-2 w3-section w3-center roboto discount-header">Special Deals</p>
+        </div>
+
+        <div class="w3-cell-row w3-center discount-div">
+            <!-- 2 in 1 -->
+            <a href="2in1.html">
+                <div class="w3-cell w3-card-4 w3-center w3-sand discount-item">
+                    <img class="w3-image discount-item-image" src="2in1.png" alt="2in1">
+                    <p class="discount-item-description">2 ITEMS</p>
+                    <p class="discount-item-price">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="bold-it">Nice Deal</span>
+                    </p>
+                </div>
+            </a>
+            <!-- 3 in 1 -->
+            <a href="3in1.html">
+                <div class="w3-cell w3-card-4 w3-center w3-pale-yellow discount-item">
+                    <img class="w3-image discount-item-image" src="3in1.png" alt="3in1">
+                    <p class="discount-item-description">3 ITEMS</p>
+                    <p class="discount-item-price">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="bold-it">Good Deal</span>
+                    </p>
+                </div>
+            </a>
+            <!-- 4 in 1 -->
+            <a href="4in1.html">
+                <div class="w3-cell w3-card-4 w3-center w3-yellow discount-item">
+                    <img class="w3-image discount-item-image" src="4in1.png" alt="4in1">
+                    <p class="discount-item-description">4 ITEMS</p>
+                    <p class="discount-item-price">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="bold-it">Great Deal</span>
+                    </p>
+                </div>
+            </a>
+            <!-- 5 in 1 -->
+            <a href="5in1.html">
+                <div class="w3-cell w3-card-4 w3-center w3-orange discount-item">
+                    <img class="w3-image discount-item-image" src="5in1.png" alt="5in1">
+                    <p class="discount-item-description">5 ITEMS</p>
+                    <p class="discount-item-price">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="bold-it">Best Deal</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- section divider -->
+    <div class="w3-container w3-padding section-divider">
+        &nbsp;
+    </div>
+    <!-- items div -->
+    <div class="w3-row w3-padding" id="item">
+
+        <div class="w3-col l12 m12 s12 w3-mobile">
+            <p class="w3-xlarge w3-card-2 w3-section w3-center roboto itemsectionheader">Products</p>
+        </div>
+        <div class="w3-row w3-center itemsection">
+            <!-- item-fb-000 -->
+            <a href="fb-000.html">
+                <div class="w3-cell w3-card-4 w3-center w3-section itemdiv">
+                    <img class="w3-image itemimage" src="facebook.png" alt="facebook">
+                    <p class="itemdescription">0YRS FB</p>
+                    <p class="itemprice">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="saveprice">save &#8358;0,000</span>
+                    </p>
+                </div>
+            </a>
+            <!-- item 000 -->
+            <a href="ig-000.html">
+                <div class="w3-cell w3-card-4 w3-center itemdiv">
+                    <img class="w3-image itemimage" src="instagram.png" alt="instagram">
+                    <p class=" itemdescription">0YRS IG</p>
+                    <p class="itemprice">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="saveprice">save &#8358;0,000</span>
+                    </p>
+                </div>
+            </a>
+            <!-- item 000 -->
+            <a href="twt-000.html">
+                <div class="w3-cell w3-card-4 w3-center itemdiv">
+                    <img class="w3-image itemimage" src="twitter.png" alt="twitter">
+                    <p class="itemdescription">0YRS TWT</p>
+                    <p class="itemprice">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="saveprice">save &#8358;0,000</span>
+                    </p>
+                </div>
+            </a>
+            <!-- item 000 -->
+            <a href="wc-000.html">
+                <div class="w3-cell w3-card-4 w3-center itemdiv">
+                    <img class="w3-image itemimage" src="wechat.png" alt="wechat">
+                    <p class="itemdescription">0YRS WC</p>
+                    <p class="itemprice">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="saveprice">save &#8358;0,000</span>
+                    </p>
+                </div>
+            </a>
+            <!-- item 000 -->
+            <a href="intlno-000.html">
+                <div class="w3-cell w3-card-4 w3-center itemdiv">
+                    <img class="w3-image itemimage" src="international-no.png" alt="international no">
+                    <p class="itemdescription">+000</p>
+                    <p class="itemprice">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="saveprice">save &#8358;0,000</span>
+                    </p>
+                </div>
+            </a>
+            <!-- item 000 -->
+            <a href="fmt-000.html">
+                <div class="w3-cell w3-card-4 w3-center itemdiv">
+                    <img class="w3-image itemimage" src="format.png" alt="format">
+                    <p class="itemdescription">FMT</p>
+                    <p class="itemprice">&#8358;0,000<sup>-00%</sup>
+                        <br>
+                        <span class="saveprice">save &#8358;0,000</span>
+                    </p>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <!-- GOTOTOP BUTTON -->
+    <button class="w3-btn w3-card-4 w3-ripple gototop-button" id="gototop-button" onclick="gototop()" id="top"
+        title="Go to top">
+        <img class="w3-image gototop-image" src="arrow.png" alt="Top">
+    </button>
+
+    <!-- code ends here -->
+    <div class="w3-container section-divider">
+        &nbsp;
+    </div>
+    <!-- footer section -->
+    <footer class="w3-row main-footer" id="about">
+        <div class="w3-col m6 s12 w3-mobile w3-padding w3-center socials-div">
+            <p class="w3-large socials-text">
+                You can get in touch with Gstore via the following platforms
+            </p>
+            <div class="socials-image-div">
+                <a href="#about"><img class="socials-image facebooksocials" src="facebooksocials.png" alt="facebook"
+                        title="Facebook"></a>
+                <a href="#about"><img class="socials-image instagramsocials" src="instagramsocials.png" alt="instagram"
+                        title="Instagram"></a>
+                <a href="#about"><img class="socials-image twittersocials" src="twittersocials.png" alt="twitter"
+                        title="Twitter"></a>
+                <a href="#about"><img class="socials-image youtubesocials" src="youtubesocials.png" alt="youtube"
+                        title="Youtube"></a>
+                <a href="#about"><img class="socials-image whatsappsocials" src="whatsappsocials.png" alt="whatsapp"
+                        title="Whatsapp"></a>
+            </div>
+        </div>
+        <div class="w3-col m6 s12 w3-mobile w3-padding w3-center copyright-div">
+            <p class="w3-large  copyright-text">
+                &#169;&nbsp;2020&nbsp;Gstore&nbsp;&#8482;
+            </p>
+            <img class="w3-image gstore-icon" src="gstoreicon.png" alt="Gstore Logo">
+        </div>
+    </footer>
+</body>
+
+<script src="gstore.js"></script>
+
+</html>
